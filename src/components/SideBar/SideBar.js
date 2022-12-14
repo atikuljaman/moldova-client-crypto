@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./SideBar.css";
 
 const SideBar = () => {
@@ -8,10 +9,12 @@ const SideBar = () => {
         <div className="box">
           <h2 className="heading">My Items</h2>
           <div className="content-cont">
-            <div className="content">
-              <p className="name">My Movies</p>
-              <p className="number">2</p>
-            </div>
+            <Link to="/my-movies">
+              <div className="content">
+                <p className="name">My Movies</p>
+                <p className="number">2</p>
+              </div>
+            </Link>
             <div className="content">
               <p className="name">My Music</p>
               <p className="number">5</p>

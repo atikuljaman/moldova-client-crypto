@@ -1,0 +1,206 @@
+.shoesboutique-container {
+  padding: 20px 122px;
+  display: flex;
+  gap: 138px;
+  color: var(--textColorOne);
+  font-family: var(--oswaldFont);
+}
+
+.shoesboutique-container-right {
+  flex: 5;
+}
+
+.shoesboutique-container-right .title {
+  font-weight: 900;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 44px;
+}
+
+.shoesboutique-container-right .content-box {
+  width: 100%;
+  height: 455px;
+  border: 1px solid #828282;
+  border-radius: 10px;
+  margin-top: 53px;
+  padding: 15px;
+  display: flex;
+  gap: 20px;
+  position: relative;
+}
+
+.shoesboutique-container-right .content-box-left {
+  width: 511px;
+  border: 0 !important;
+}
+
+.shoesboutique-container-right .content-box-left .slider {
+  position: relative;
+  height: 303px;
+}
+
+.shoesboutique-container-right .content-box-left .slider .slider-btn {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: rgba(217, 217, 217, 0.35);
+  cursor: pointer;
+  border: 0;
+  outline: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.shoesboutique-container-right .content-box-left .prev-btn {
+  position: absolute;
+  top: 50%;
+  left: 2%;
+  transform: translate(-0%, -50%);
+}
+
+.shoesboutique-container-right .content-box-left .next-btn {
+  position: absolute;
+  top: 50%;
+  right: 2%;
+  transform: translate(-0%, -50%);
+}
+
+.shoesboutique-container-right .content-box-left .description-cont {
+  margin-top: 12px;
+}
+
+.shoesboutique-container-right .content-box-left .description-cont h3 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.shoesboutique-container-right .content-box-left .description-cont p {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  margin-top: 12px;
+}
+
+.shoesboutique-container-right .content-box-right .sales-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 21px;
+}
+
+.shoesboutique-container-right .content-box-right .sale-card {
+  width: 385px;
+  border-radius: 5px;
+  background-color: var(--textColorOne);
+  padding: 5px;
+  text-align: center;
+  color: #000000;
+}
+
+.shoesboutique-container-right .content-box-right .sale-card .title {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #000000;
+  border-bottom: 0.25px solid #5a5a5a;
+  padding-bottom: 2px;
+}
+
+.shoesboutique-container-right .content-box-right .sale-card img {
+  margin: 5px auto;
+}
+
+.shoesboutique-container-right .content-box-right .sale-card .card-footer {
+  display: flex;
+  position: relative;
+}
+
+.shoesboutique-container-right .content-box-right .sale-card .card-footer p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 15px;
+}
+
+.shoesboutique-container-right
+  .content-box-right
+  .sale-card
+  .card-footer
+  .price {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.shoesboutique-container-right .content-box-right .button-cont {
+  margin-top: 9px;
+  padding: 0 45px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.shoesboutique-container-right .content-box-right .button-cont button {
+  background-color: transparent;
+  border: 0;
+  outline: 0;
+  color: var(--textColorOne);
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  font-family: var(--oswaldFont);
+  cursor: pointer;
+}
+
+.shoesboutique-container-right .vote-detail {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  font-family: var(--oswaldFont);
+}
+
+.shoesboutique-container-bottom {
+  display: flex;
+  align-items: center;
+  gap: 39px;
+  position: absolute;
+  bottom: 25px;
+  right: 75px;
+}
+
+.shoesboutique-container-bottom img {
+  cursor: pointer;
+}
+
+.shoesboutique-container-right .up-vote-box {
+  width: 100%;
+  height: 303px;
+  background-color: var(--textColorOne);
+  border-radius: 5px;
+  padding: 24px 18px;
+  position: relative;
+  color: #000000;
+}
+
+.shoesboutique-container-right .up-vote-box .close-icon {
+  position: absolute;
+  top: 9px;
+  right: 12px;
+  cursor: pointer;
+}
+
+.shoesboutique-container-right .up-vote-box p {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+}

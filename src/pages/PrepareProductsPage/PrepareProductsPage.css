@@ -1,0 +1,232 @@
+.prepare-products-container {
+  padding: 20px 122px;
+  display: flex;
+  gap: 67px;
+  color: var(--textColorOne);
+  font-family: var(--oswaldFont);
+}
+
+.prepare-products-header {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.prepare-products-header .heading {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  margin: 0;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.prepare-products-header img {
+  cursor: pointer;
+}
+
+.prepare-products-container-right {
+  flex: 5;
+}
+
+.prepare-products-container-right .content-box {
+  width: 86%;
+  margin-left: auto;
+}
+
+.prepare-products-container-right .content-box table {
+  width: 100%;
+  margin-top: 47px;
+}
+
+.prepare-products-container-right .content-box table {
+  width: 100%;
+  margin-top: 47px;
+  border: 0;
+}
+
+.prepare-products-container-right .content-box table thead {
+  height: 60px;
+  text-align: center;
+}
+
+.prepare-products-container-right .content-box table .body-tr {
+  margin-top: 30px !important;
+  border-radius: 5px;
+  height: 60px;
+  background-color: var(--textColorOne);
+  border: 0;
+  color: black;
+  text-align: center;
+}
+
+.prepare-products-container-right .content-box table td {
+  padding: 8px 9px;
+}
+
+.prepare-products-container-right .content-box table td p {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.prepare-products-container-right .content-box table td button {
+  width: 100%;
+  height: 45px;
+  border: 0;
+  outline: 0;
+  border-radius: 5px;
+  background-color: var(--textColorTwo);
+  color: var(--textColorOne);
+  font-family: var(--oswaldFont);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  cursor: pointer;
+}
+
+.prepare-products-container-right .content-box table td .prepare-btn {
+  background-color: var(--bgColorFour);
+}
+
+.prepare-products-container-right .content-box table .spacer {
+  height: 30px;
+}
+
+.prepare-products-container-right .cards-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-row-gap: 40px;
+  margin-top: 22px;
+}
+
+.prepare-products-container-right .prepare-products-card-container {
+  width: 154px;
+  height: 208px;
+}
+
+.prepare-products-container-right .prepare-products-card-container .card {
+  background-color: var(--bgColorSeven);
+  height: 208px;
+  width: 100%;
+  border-radius: 8px;
+  position: relative;
+  overflow: hidden;
+}
+
+.prepare-products-container-right
+  .prepare-products-card-container
+  .card-overlay {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  transition: 0.2s ease-in-out;
+  z-index: 1;
+  background: rgba(0, 0, 0, 0.82);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+.prepare-products-container-right
+  .prepare-products-card-container
+  .card-overlay
+  button {
+  width: 91px;
+  height: 21px;
+  border-radius: 5px;
+  background-color: var(--textColorTwo);
+  border: 0;
+  outline: 0;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  color: var(--textColorOne);
+  font-family: var(--oswaldFont);
+  cursor: pointer;
+}
+
+.prepare-products-container-right
+  .prepare-products-card-container
+  .card:hover
+  .card-overlay {
+  top: 0%;
+}
+
+.prepare-products-container-right
+  .prepare-products-card-container
+  .card-cont
+  .name {
+  margin-top: 12px;
+}
+
+.prepare-products-container-right
+  .prepare-products-card-container
+  .card-cont
+  .name,
+.price,
+.quantity,
+.sell {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.prepare-products-container-right .card .card-top img {
+  border-radius: 8px 8px 0px 0px;
+}
+
+.prepare-products-container-right .card .card-center {
+  padding: 7px 10px 20px 10px;
+  border-bottom: 1px solid #343741;
+}
+
+.prepare-products-container-right .card .card-center .title {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  color: var(--textColorTwo);
+}
+
+.prepare-products-container-right .card .card-center .sub-title {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: var(--textColorThree);
+}
+
+.prepare-products-container-right .card .card-bottom {
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.prepare-products-container-right .card .card-bottom p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: var(--textColorTwo);
+  margin: 0;
+}
+
+.prepare-products-container-right .card .card-bottom button {
+  border: 1px solid var(--textColorTwo);
+  filter: drop-shadow(0px 0px 24px rgba(253, 230, 63, 0.4));
+  border-radius: 999px;
+  font-weight: 400;
+  font-size: 8px;
+  color: var(--textColorTwo);
+  background-color: transparent;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px 12px 4px 12px;
+}

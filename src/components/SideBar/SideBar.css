@@ -1,3 +1,7 @@
+.sidebar-container {
+  color: var(--textColorOne);
+  font-family: var(--oswaldFont);
+}
 .sidebar-container .box {
   width: 249px;
   border: 1px solid var(--borderColorTwo);
@@ -34,6 +38,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  color: var(--textColorOne);
 }
 
 .sidebar-container .box .content .name,
